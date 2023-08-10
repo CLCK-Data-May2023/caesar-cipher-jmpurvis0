@@ -17,8 +17,7 @@ def encrypt(text):
         
         crypt_phrase += shift_letter
 
-    print(f"The encrypted message is: {crypt_phrase}")
-    print("FYI: The cipher has a shift of 5")
+    print(f"The encrypted sentence is: {crypt_phrase}")
 
 
 phrase = input("Please enter a sentence: ")
